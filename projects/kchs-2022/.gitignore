@@ -1,0 +1,13 @@
+# KCHS 2022 raw microdata — never commit authorised source files
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated audit outputs
+outputs/audit/*
+!outputs/audit/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
