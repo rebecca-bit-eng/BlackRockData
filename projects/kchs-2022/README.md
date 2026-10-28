@@ -1,8 +1,20 @@
 # Kenya Household Welfare & Labour Intelligence
 
+[Black Rock Data](../../README.md) · [Rebecca's analytics portfolio](https://github.com/rebecca-bit-eng/data-analyst-portfolio)
+
 ## Black Rock Data | Real-world Kenya case study
 
-This project analyses the Kenya Continuous Household Survey Programme (KCHSP) 2022, an official survey produced by the Kenya National Bureau of Statistics (KNBS).
+**Status: in progress.** The repository contains a Python ingestion and audit script, data-access instructions and an analysis plan. Raw microdata, generated audit results, statistical findings, reports and a final dashboard are not committed.
+
+### Review the available work
+
+- [Data-audit script](analysis/01_data_audit.py): file ingestion, missingness, duplicate-row checks and numeric summaries.
+- [Analysis workflow](analysis/README.md): planned preparation, survey estimation, validation and presentation stages.
+- [Data-access instructions](data/README.md): local setup for authorised source data.
+
+The script provides initial structural checks. Survey-weight validation, identifier integrity checks and population estimates remain planned work.
+
+This project is being developed to analyse the Kenya Continuous Household Survey Programme (KCHSP) 2022, an official survey produced by the Kenya National Bureau of Statistics (KNBS).
 
 The objective is to demonstrate client-grade work in survey data management, statistical analysis, socioeconomic research, labour-market intelligence, household welfare analysis, county-level reporting, data quality assurance, reproducible analytics, and executive data visualization.
 
@@ -66,7 +78,7 @@ The KNBS catalogue states that the microdata are public-use data but require reg
 
 **Raw KCHS 2022 microdata will therefore NOT be committed to this public GitHub repository.**
 
-Instead, this repository contains reproducible analytical code, documentation, data-access instructions, derived non-identifying outputs where permitted, visualizations, methodology, and final findings.
+The repository currently contains the initial audit code, documentation, data-access instructions and planned methodology. Derived non-identifying outputs, visualizations and final findings will be added only when completed and permitted.
 
 Users who wish to reproduce the analysis should obtain the data directly from KNBS/KeNADA and place the authorised files in the local data/raw directory.
 
