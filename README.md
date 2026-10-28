@@ -10,6 +10,15 @@ Our work brings together **data analytics, statistical methods, research support
 
 ---
 
+## Explore the work
+
+| Project | Available evidence | Status |
+|---|---|---|
+| [Kenya Household Welfare & Labour Intelligence](projects/kchs-2022/README.md) | Python data-ingestion and audit script, survey methodology plan and data-access documentation. | In progress; no survey findings or final dashboard published. |
+| [Rebecca's Sales Performance Dashboard](https://github.com/rebecca-bit-eng/data-analyst-portfolio/tree/main/projects/01-sales-dashboard) | Personal portfolio prototype using Pandas, Plotly and Streamlit for sales reporting. | Prototype; data setup unresolved and forecasting pending. |
+
+**Recruiters:** visit [Rebecca's analytics portfolio](https://github.com/rebecca-bit-eng/data-analyst-portfolio) for an ordered guide to the available code. The sales prototype is personal portfolio work; these links do not imply completed client engagements.
+
 ## What We Do
 
 ### 📊 Data Analytics & Statistics
@@ -140,7 +149,7 @@ The tools we use depend on the specific requirements of each project.
 
 ## Our Repositories
 
-This GitHub organization contains projects, analytical work, demonstrations, and other technical resources developed by Black Rock Data.
+This repository contains Black Rock Data's public project documentation and analytical code. Start with the [KCHS 2022 case study](projects/kchs-2022/README.md); its audit script is available, while analysis and final outputs remain in progress.
 
 Projects may cover areas including:
 
